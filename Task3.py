@@ -17,12 +17,9 @@ def int_power_of_two(finite_number: int):
     while i < finite_number:
         result = 2**i
         if result > 10: break
-        i +=1
+        i += 1
         print(result)
 
 
 user_ent = user_enter()
 power_two = int_power_of_two(user_ent)
-
-
-# ADD TRY - EXCEPT!!!
