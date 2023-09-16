@@ -19,6 +19,7 @@ def int_power_of_two(finite_number: int):
         if result > 10: break
         i += 1
         print(result)
+    if finite_number == 0: print("Result: 0")
 
 
 user_ent = user_enter()
